@@ -35,4 +35,4 @@ def students(request : StudentsRequest):
 
 @app.get("/students")
 def students():
-    return Response()
+    return JSONResponse( )
